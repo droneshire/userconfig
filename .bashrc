@@ -1,4 +1,5 @@
 PATH=$PATH:~/bin
+export PATH="/usr/local/bin":$PATH
 export PATH=$PATH:"/Applications/microchip/xc16/v1.23/bin"
 
 export PATH="/Applications/microchip/xc32/v1.20/bin":$PATH
@@ -14,3 +15,5 @@ gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 
+
+export PATH=$PATH:"/Applications/microchip/xc16/v1.25/bin"
